@@ -10,3 +10,37 @@ namespace adoreos_ui {
         `)
     }
 }
+
+startup()
+
+function startup() {
+    basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . # . .
+    . . . . .
+    . . . . .
+    `)
+    basic.showLeds(`
+    . . . . .
+    . . # . .
+    . # . # .
+    . . # . .
+    . . . . .
+    `)
+    basic.showLeds(`
+    . . # . .
+    . # . # .
+    # . . . #
+    . # . # .
+    . . # . .
+    `)
+    basic.showLeds(`
+    . # # # .
+    # . . . #
+    # . . . #
+    # . . . #
+    . # # # .
+    `)
+    basic.clearScreen()
+}
