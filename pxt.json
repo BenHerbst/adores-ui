@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "adoreos-core": "github:benherbst/adoreos-core#master"
     },
     "files": [
         "main.blocks",
